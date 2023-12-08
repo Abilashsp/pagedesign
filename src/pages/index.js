@@ -15,6 +15,11 @@ import Label from '@/components/Font Choice/Label'
 import Addlabel from "../components/Font Choice/Addlabel"
 import Estateui from '@/components/Font Choice/Estateui'
 import Heartrate from '@/components/Font Choice/Heartrate'
+import Sectiontittle from '@/components/Font Choice/Sectiontittle'
+import IconDeemp from "../components/Font Choice/IconDeemp"
+import Tweet from '@/components/Font Choice/Tweet'
+import Semanticsbuttons from "../components/Font Choice/Semanticsbuttons"
+import Deactivateui from "../components/Font Choice/Deactivateui"
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -31,13 +36,19 @@ export default function Home() {
   {/* <Tableui/> */}
   {/* <Cards/> */}
   {/* <Card2/> */}
+
   {/* <Deempathyzing/> */}
   {/* <Flightbookui/> */}
   {/* <Sidebar/> */}
   {/* <Label/> */}
   {/* <Addlabel/> */}
 {/* <Estateui/> */}
-<Heartrate/>
+{/* <Heartrate/> */}
+<Sectiontittle/>
+{/* <IconDeemp/> */}
+{/* <Tweet/> */}
+{/* <Semanticsbuttons/> */}
+{/* <Deactivateui/> */}
     </div>
   )
 }

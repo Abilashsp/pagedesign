@@ -16,7 +16,8 @@ module.exports = {
         customColor: '#287878',
         customcolor1:"#ebebf0",
         buttonbg:"#1e2832",
-        planttittlecolor:'#193755'
+        planttittlecolor:'#193755',
+        searchbg:"#3c5069",
       },
     },
   },

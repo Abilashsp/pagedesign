@@ -20,7 +20,7 @@ export default function Heartrate() {
         </div>
         <div className="mt-5 ml-6 ">
          <div>
-            <h1 className="text-lg font-semibold text-gray-500">HEART RATE</h1>
+            <h1 className="text-base font-semibold text-gray-500">HEART RATE</h1>
             <h2 className=" flex "><p className="text-4xl font-bold text-gray-900">82 </p><p className='text-base font-bold ml-1 text-gray-900 mt-4'>BPM</p></h2>
          </div>
         </div>
