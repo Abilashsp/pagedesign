@@ -17,7 +17,7 @@ module.exports = {
         customcolor1:"#ebebf0",
         buttonbg:"#1e2832",
         planttittlecolor:'#193755',
-        searchbg:"#3c5069",
+        loginbuttoncolor:"#237d91",
       },
     },
   },
