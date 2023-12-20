@@ -42,7 +42,7 @@ export default function Example() {
                     <input
                       id="search"
                       name="search"
-                      className="block w-full rounded-3xl border-0  bg-white py-2 pl-10 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                      className="block w-full rounded-3xl border-0  bg-[#e7e8ef] py-2 pl-10 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                       placeholder="Search"
                       type="search"
                     />
@@ -86,7 +86,7 @@ export default function Example() {
                     leaveFrom="transform opacity-100 scale-100"
                     leaveTo="transform opacity-0 scale-95"
                   >
-                    <Menu.Items className="absolute -right-4 z-10 mt-6 w-48 origin-top-right rounded-lg bg-white py-1 shadow-lg  shadow-gray-400 ring-1 ring-black ring-opacity-5 focus:outline-none">
+                    <Menu.Items className="absolute -right-4 z-10 mt-6 w-60 origin-top-right rounded-lg bg-white py-1 shadow-lg  shadow-gray-400 ring-1 ring-black ring-opacity-5 focus:outline-none">
                         <div className='border-b-2 py-3'>
                         <Menu.Item>
                         {({ active }) => (
@@ -291,7 +291,7 @@ export default function Example() {
     </Disclosure>
 
     <div className='mx-auto max-w-7xl h-full px-2 sm:px-4 lg:px-8 '>
-        <div className='px-4 py-4 bg-slate-300 h-full'>
+        <div className='px-4 py-4 bg-[#e7e8ef] h-full'>
 
 
         </div>

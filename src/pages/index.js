@@ -108,7 +108,7 @@ export default function Tweet() {
                             <img className="h-8 w-auto text-gray-400" src="\Images\dashboard.png" alt="" />
                         </a>
                     </div>
-                    <div className="mx-4 text-lg font-semibold text-gray-600 mt-2">
+                    <div className="mx-4 text-lg font-semibold text-gray-600 mt-2 tracking-wider">
                         UI DASHBOARD
                     </div>
                     </div>
