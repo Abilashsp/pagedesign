@@ -166,12 +166,12 @@ export default function Deempathyzing() {
                                         <option value="Mexico">Malayalam</option>
                                        
                                     </select>
-                                    <div className="absolute "><ChevronDownIcon className="w-6 h-6"/></div>
+                                    <div className="absolute top-9 right-4"><ChevronDownIcon className="w-6 h-6"/></div>
                                 </div>
 
 
 
-                                <div className="col-span-full">
+                                <div className="col-span-full relative">
                                     <label htmlFor="location" className="block text-sm font-medium leading-6 text-gray-500">
                                         Country
                                     </label>
@@ -188,6 +188,7 @@ export default function Deempathyzing() {
                                         <option value="Canada">Canada</option>
                                         <option value="Mexico">Mexico</option>
                                     </select>
+                                    <div className="absolute top-9 right-4"><ChevronDownIcon className="w-6 h-6"/></div>
                                 </div>
 
 

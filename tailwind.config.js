@@ -19,6 +19,7 @@ module.exports = {
         planttittlecolor:'#193755',
         loginbuttoncolor:"#237d91",
       },
+   
     },
   },
   plugins: [],

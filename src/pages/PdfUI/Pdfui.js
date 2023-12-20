@@ -195,7 +195,7 @@ export default function Example() {
                                         </table>
 
                                     </div>
-                                    <div className="flex justify-between px-28 text-sm font-medium" >
+                                    <div className="flex justify-between px-28 text-sm font-bold" >
                                         <div>
                                             total
                                         </div>
@@ -211,7 +211,7 @@ export default function Example() {
                             </div>
                         </div>
                     </div>
-                    <div className="w-1/5  ">
+                    <div className="w-2/12  ">
                         <div className=" w-4/5 mx-auto">
                             <div className="mt-8 flow-root">
                                 <div className="-mx-4 -my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
