@@ -1,16 +1,14 @@
-import { initPlasmicLoader } from "@plasmicapp/loader-nextjs/react-server-conditional";
-import * as NextNavigation from "next/navigation";
+import HeroSection from "@/components/HeroSection";
+import { initPlasmicLoader } from "@plasmicapp/loader-nextjs";
 
 export const PLASMIC = initPlasmicLoader({
-  nextNavigation: NextNavigation,
   projects: [
     {
-      id: "961Dap539VqK6ewnrYwsre",
-      token:
-        "Ey2dSPAF37f6N1EP4cg4xf61nx3moqyPCidIpkWSAq2XkqcLSJcgUxEsZwCGPMG2OZm1HHii3UcxRoCLVYaQ",
+      id: "tkokRvDAMAQVvt3PrmQVwU",
+      token: "TtOVojxhWoDfHryf7vZyNV4MhpWGTdiFndKksxlTEVfH87SGzWE4mVY8KgAAtrNSq90Rwe3cjjR8rVClcZg",
     },
   ],
-
-
   preview: false,
 });
+
+
