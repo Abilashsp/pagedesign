@@ -12,6 +12,7 @@
     "@headlessui/react": "^1.7.17",
     "@heroicons/react": "^2.0.18",
     "@material-tailwind/react": "^2.1.7",
+    "@plasmicapp/loader-nextjs": "^1.0.353",
     "@progress/kendo-react-charts": "^7.0.1",
     "country-flag-icons": "^1.5.9",
     "heroicons": "^2.0.18",
