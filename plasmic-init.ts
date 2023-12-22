@@ -1,4 +1,4 @@
-import { HelloWorld } from "@/components/Helloworld";
+import Helloworld  from "@/components/Helloworld";
 import { initPlasmicLoader } from "@plasmicapp/loader-nextjs";
 
 export const PLASMIC = initPlasmicLoader({
@@ -12,10 +12,9 @@ export const PLASMIC = initPlasmicLoader({
 });
 
 
-PLASMIC.registerComponent(HelloWorld, {
-  name: 'HelloWorld',
+PLASMIC.registerComponent(Helloworld, {
+  name: 'Helloworld',
   props: {
-    verbose: 'boolean',
-    children: 'slot'
-  }
-});
+    content: "string"
+},
+})
