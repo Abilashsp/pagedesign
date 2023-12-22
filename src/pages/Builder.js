@@ -1,15 +1,7 @@
+import * as React from 'react';
+import { PlasmicCanvasHost } from '@plasmicapp/loader-nextjs';
+import { PLASMIC } from '../../plasmic-init';
 
-import {
-  PlasmicComponent,
-  PlasmicRootProvider,
-} from "@plasmicapp/loader-nextjs";
-import { PLASMIC } from "../../plasmic-init";
-
-
-export default function IndexPage() {
-  return (
-    <PlasmicRootProvider loader={PLASMIC}>
-    <PlasmicComponent component="HeroSection"/>
-    </PlasmicRootProvider>
-  );
+export default function PlasmicHost() {
+  return PLASMIC && <PlasmicCanvasHost />;
 }
