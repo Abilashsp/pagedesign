@@ -121,8 +121,8 @@ export default function Example() {
 
     return (
         <div className="w-screen h-screen">
-            <div className='w-3/5 mx-auto  '>
-                <div className=" mx-auto w-full h-20 mt-5 ">
+            <div className='w-3/5 '>
+                <div className=" mx-auto w-full h-20  ">
 
 
                     <div className=" h-full shadow-xl bg-white lg:px-8 w-full flex items-center ">

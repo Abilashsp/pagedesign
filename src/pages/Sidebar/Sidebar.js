@@ -52,8 +52,8 @@ const activelink=(id)=>{
 
 
   return (
-    <div className="bg-slate-300 w-3/5 mx-auto mt-3 h-screen ">
-    <header className="bg-white w-full mx-auto mt-3 rounded-t-lg">
+    <div className="bg-slate-300 w-3/5   h-screen ">
+    <header className="bg-white w-full mx-auto  rounded-t-lg">
       <nav className="mx-auto flex max-w-4xl items-center justify-between p-3 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">

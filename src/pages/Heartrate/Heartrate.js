@@ -8,7 +8,7 @@ function classNames(...classes) {
 
 export default function Heartrate() {
   return (
-    <div className='w-full h-screen flex justify-center items-center'>
+    <div className='w-full h-screen '>
     <div className="bg-white h-48 w-3/12 rounded-lg shadow-2xl ">
       <div className="flex justify-start">
         <div className="flex  ">

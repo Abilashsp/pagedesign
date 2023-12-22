@@ -43,8 +43,8 @@ export default function Deempathyzing() {
 
     return (
         <div className="min-h-screen  w-screen">
-            <header className="bg-white w-4/5 mx-auto mt-3">
-                <nav className="mx-auto flex w-full items-center justify-between p-3 lg:px-8" aria-label="Global">
+            <header className="bg-white w-4/5 ">
+                <nav className="mx-auto flex w-full  justify-between p-3 lg:px-8" aria-label="Global">
                     <div className="flex lg:flex-1">
                         <a href="#" className="-m-1.5 p-1.5">
                             <span className="sr-only">Your Company</span>
@@ -78,7 +78,7 @@ export default function Deempathyzing() {
                     </div>
                 </nav>
             </header>
-            <div className="bg-gray-200 w-4/5 mx-auto ">
+            <div className="bg-gray-200 w-4/5 ">
                 <>
                     <div className="flex min-h-full flex-1 flex-col justify-center py-12 sm:px-6 lg:px-8">
 

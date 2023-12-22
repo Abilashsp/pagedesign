@@ -1,6 +1,6 @@
 export default function Heroicons() {
   return (
-    <div className="relative bg-white w-4/5 mx-auto mt-2 rounded-md font-sans">
+    <div className="relative bg-white w-4/5 rounded-md font-sans">
       <div  className="mx-auto max-w-7xl lg:grid lg:grid-cols-12 lg:gap-x-8 lg:px-8">
         <div className="  px-6 pb-24 pt-10 sm:pb-32 lg:col-span-7 lg:px-0 lg:pb-56 lg:pt-48 xl:col-span-6 h-screen">
           <div className="mx-auto max-w-2xl lg:mx-0">

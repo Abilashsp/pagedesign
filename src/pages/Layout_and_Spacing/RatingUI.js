@@ -21,10 +21,9 @@ export default function Flightbookui() {
     
     return (
         <div className="w-screen h-screen">
-            <div className="flex min-h-full flex-1 flex-col justify-center py-12 sm:px-6 lg:px-8 h-3/5 ">
-
-                <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-[400px] h-full ">
-                    <div className="bg-white px-6  py-10 shadow sm:rounded-lg sm:px-6  h-3/4 ">
+            <div className="flex min-h-full flex-1 flex-col justify-center   h-3/5 ">
+                <div className=" sm:w-full sm:max-w-[400px] h-full ">
+                    <div className="bg-white px-6  py-10 shadow sm:rounded-lg sm:px-6  h-3/5 ">
                         <div className="px-4 ">
                             <h1 className="text-2xl font-extrabold text-gray-900">50 customer reviews</h1>
                         </div>

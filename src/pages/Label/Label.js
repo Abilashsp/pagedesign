@@ -8,7 +8,7 @@ function classNames(...classes) {
 
 export default function Label() {
   return (
-    <div className='w-full h-screen flex justify-center items-center'>
+    <div className='w-full h-screen '>
     <div className="bg-white px-4 py-5 sm:px-6 h-44 w-2/6 rounded-lg shadow-2xl ">
       <div className="flex space-x-3 justify-normal">
         <div className=" ml-2">

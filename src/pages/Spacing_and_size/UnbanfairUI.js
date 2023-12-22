@@ -31,7 +31,7 @@ export default function Example() {
 
     return (
         <div className="min-h-screen bg-white ">
-            <div className='w-full sm:w-11/12 md:w-10/12 lg:w-8/12 xl:w-6/12 mx-auto flex items-center h-4/5'>
+            <div className='w-full sm:w-11/12 md:w-10/12 lg:w-8/12 xl:w-6/12  flex items-center h-4/5'>
                 <div className="w-4/5 bg-white px-6 py-6 mt-4">
                     <div className="flex justify-between">
                         <div>

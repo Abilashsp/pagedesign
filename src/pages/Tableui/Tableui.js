@@ -104,7 +104,7 @@ export default function Example() {
         <body class="h-full">
         ```
       */}
-            <div className="h-screen w-4/5 mx-auto border-2 font-thin bg-white">
+            <div className="h-screen w-4/5  border-2 font-thin bg-white">
                 <Disclosure as="nav" className="border-b border-gray-200">
                     {({ open }) => (
                         <>

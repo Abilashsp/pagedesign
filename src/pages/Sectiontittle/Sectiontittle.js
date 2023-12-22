@@ -57,8 +57,8 @@ export default function Example() {
 
     return (
         <div className='h-screen'>
-        <div className='w-3/5 mx-auto '>
-            <header className="bg-blue-950 w-full mx-auto mt-3 rounded-t-xl">
+        <div className='w-3/5 '>
+            <header className="bg-blue-950 w-full mx-auto  rounded-t-xl">
                 <nav className="mx-auto flex max-w-4xl items-center justify-between p-3 lg:px-8" aria-label="Global">
                     <div className="flex lg:flex-1">
                         <a href="#" className="-m-1.5 p-1.5">

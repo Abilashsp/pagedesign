@@ -1,7 +1,8 @@
 import Helloworld  from "@/components/Helloworld";
+import HeroSection from "@/components/HeroSection";
 import { initPlasmicLoader } from "@plasmicapp/loader-nextjs";
 
-export const PLASMIC = initPlasmicLoader({
+ const PLASMIC = initPlasmicLoader({
   projects: [
     {
       id: "kMYeHci2xQiQ3sijqmY32D",
@@ -12,9 +13,12 @@ export const PLASMIC = initPlasmicLoader({
 });
 
 
-PLASMIC.registerComponent(Helloworld, {
-  name: 'Helloworld',
+PLASMIC.registerComponent(HeroSection, {
+  name: 'HeroSection',
   props: {
-    content: "string"
-},
+    verbose: 'boolean',
+    children: 'slot'
+  }
 })
+
+export default PLASMIC
