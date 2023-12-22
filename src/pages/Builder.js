@@ -7,7 +7,7 @@ export default function PlasmicHost() {
   
   return(
     <PlasmicRootProvider loader={PLASMIC} >
-  <PlasmicComponent component='HeroSection'/>
+  <PlasmicCanvasHost/>
     </PlasmicRootProvider>
   )
 }

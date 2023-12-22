@@ -42,7 +42,7 @@ export default function Commentsui() {
 
   return (
     <div>
-    <div className="flex items-start space-x-4 h-screen w-full mx-auto justify-center font-sans  px-11">
+    <div className="  space-x-4 h-screen w-full  font-sans  px-11">
       <div className='  w-1/3 bg-white px-2 py-2 rounded-md shadow-lg mt-32 '>
         <div className='px-2 py-2 font-bold text-gray-600'>
           <h1 className=' py-2'>Add New Comments</h1>
