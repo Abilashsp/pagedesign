@@ -1,6 +1,8 @@
 import { MagnifyingGlassIcon, PlusIcon } from '@heroicons/react/20/solid'
 import { EllipsisVerticalIcon } from '@heroicons/react/24/outline'
 import { useState } from 'react'
+import { MdOutlineMoreVert } from "react-icons/md";
+import { FaPlus } from "react-icons/fa6";
 
 const people = [
   { tittle: "Kerala", artist: "Bonobo", added: "2 mins" },
@@ -13,7 +15,7 @@ function classNames(...classes) {
 }
 
 export default function Example() {
-  const [select, setselect] = useState(null)
+  const [select, setselect] = useState(0)
 
   const selecteditem = (id) => {
     setselect(id)
@@ -49,7 +51,7 @@ export default function Example() {
                   <input
                     id="search"
                     name="search"
-                    className="block w-full rounded-3xl border-0  bg-[#ffffff] py-2 pl-10 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                    className="block w-full rounded-3xl border-0  px-4 bg-[#ffffff] py-2 pl-10 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                     placeholder="Filter"
                     type="search"
                   />
@@ -86,10 +88,10 @@ export default function Example() {
                     {people.map((person, index) => (
                       <tr key={person.tittle} onClick={() => selecteditem(index)}  className={classNames(index === select ? ' shadow-md rounded-lg shadow-gray-300 border-none ' : 'border-t', '')}>
                         <td className={classNames(index === select ? 'bg-white rounded-l-lg' : '', 'whitespace-nowrap  py-4 text-sm text-gray-500 flex  justify-around')}>
-                          {index === select ? <span className=''><EllipsisVerticalIcon className='w-6 h-6 text-gray-400' /></span> : null}
+                          {index === select ? <span className=''><MdOutlineMoreVert className='w-6 h-6 text-gray-400' /></span> : null}
                         </td>
                         <td className={classNames(index === select ? 'bg-white ' : '', 'whitespace-nowrap  py-4   text-base font-medium text-gray-900')}>
-                          <PlusIcon className='w-5 h-5 text-gray-400' />
+                          <FaPlus className='w-4 h-4 text-gray-400' />
                         </td>
                         <td className={classNames(index === select ? 'bg-white ' : '', 'whitespace-nowrap  py-4 text-base text-gray-500')}>{person.tittle}</td>
                         <td className={classNames(index === select ? 'bg-white ' : '', 'whitespace-nowrap  py-4 text-base text-gray-500')}>{person.artist}</td>
