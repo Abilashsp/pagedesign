@@ -53,12 +53,12 @@ import CarousalUI from "@/components/UIComponents/CarousalUI";
 import Whatsappchat from "@/components/UIComponents/Whatsappchat";
 import Userfeature from "@/components/UIComponents/Userfeature";
 import UsegoodphotoUI from "@/components/UIComponents/UsegoodphotoUI";
+import Cart from "@/components/UIComponents/Cart";
 
 
 
 
 const components = [
-  
     { comp: Addlabel, compname: "Addlabel" },
     { comp: Agilemorning, compname: "Agilemorning" },
     { comp: Argyle, compname: "Argyle" },
@@ -109,8 +109,8 @@ const components = [
     { comp: CarousalUI, compname: "CarousalUI" },
     { comp: Whatsappchat, compname: "Whatsappchat" },
     { comp: Userfeature, compname: "Userfeature" },
-    { comp: UsegoodphotoUI, compname: "UsegoodphotoUI" }
-  
+    { comp: UsegoodphotoUI, compname: "UsegoodphotoUI" },
+    { comp: Cart, compname: "Cart" }
   
 ]
 

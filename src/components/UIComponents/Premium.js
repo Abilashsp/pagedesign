@@ -20,7 +20,7 @@ const stars = () => {
 
 export default function Example() {
     return (
-        <div className="w-screen h-screen bg-white flex  items-center justify-center ">
+        <div className="w-screen h-screen bg-white ">
             <div role="list" className="w-1/6 mx-auto h-[400px]">
                 <div className=" w-full h-full  bg-white shadow-xl relative  border-2 border-gray-100 " >
                     <div className='w-full border-t-4 border-[#1eafe1]'>

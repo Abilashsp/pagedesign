@@ -27,7 +27,7 @@ export default function Example() {
     <Disclosure as="nav" className="">
       {({ open }) => (
         <>
-          <div className="mx-auto max-w-7xl px-2 sm:px-4 lg:px-8">
+          <div className="w-full ">
             <div className="flex h-16 justify-between bg-white ">
               
               <div className="flex flex-1  items-center justify-center px-2 lg:ml-7 lg:justify-end">
@@ -290,7 +290,7 @@ export default function Example() {
       )}
     </Disclosure>
 
-    <div className='mx-auto max-w-7xl h-full px-2 sm:px-4 lg:px-8 '>
+    <div className=' h-full w-full '>
         <div className='px-4 py-4 bg-[#e7e8ef] h-full'>
 
 

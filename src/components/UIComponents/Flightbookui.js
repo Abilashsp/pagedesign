@@ -16,9 +16,9 @@ export default function Flightbookui() {
     ]
     return (
         <>
-            <div className="flex min-h-full flex-1 flex-col justify-center py-12 sm:px-6 lg:px-8">
+            <div className="flex min-h-full flex-1 flex-col justify-center ">
 
-                <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-[480px]">
+                <div className=" sm:w-full sm:max-w-[480px]">
                     <div className="bg-white px-6 py-12 shadow sm:rounded-t-lg sm:px-12">
                         <div>
                             <fieldset className="mb-4">
@@ -157,7 +157,7 @@ export default function Flightbookui() {
                     </div>
 
                 </div>
-                <div className="sm:mx-auto sm:w-full sm:max-w-[480px] sm:rounded-b-lg bg-buttonbg ">
+                <div className=" sm:w-full sm:max-w-[480px] sm:rounded-b-lg bg-buttonbg ">
                                 <button
                                     type="submit"
                                     className="flex w-full justify-center   px-3 py-5 text-sm font-bold sm:rounded-b-lg  font-sans leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"

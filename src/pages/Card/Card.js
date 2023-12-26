@@ -57,9 +57,9 @@ const youtubedata = [
 export default function Tweet() {
   return (
     <div className="w-full h-screen ">
-      <div className=" w-3/6 mx-auto flex h-full">
+      <div className=" w-3/6 flex h-full">
 
-        <div className="bg-[#284178]  w-full  mt-28 h-2/6  relative flex rounded-xl  ">
+        <div className="bg-[#284178]  w-full  h-2/6  relative flex rounded-xl  ">
           <div className="flex-shrink-0 relative ">
             <img
               className="h-full w-72 object-fill rounded-l-xl "

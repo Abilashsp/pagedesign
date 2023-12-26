@@ -74,7 +74,7 @@ const people = [
 export default function Example() {
     return (
         <div className="w-screen h-screen ">
-            <div role="list" className="w-2/5 mx-auto mt-16 h-[270px]  ">
+            <div role="list" className="w-2/5 h-[270px]  ">
                 <div className=" w-full h-full  bg-[#464b5a] shadow-xl relative rounded-md" >
                     <div className='py-8'>
                     <div className='flex  py-4 items-center w-full h-full ml-20'>

@@ -8,13 +8,13 @@ function classNames(...classes) {
 
 export default function abel() {
     return (
-        <div className='w-full h-screen flex justify-center items-center'>
+        <div className='w-full h-screen '>
             <div className="bg-white h-2/6  w-2/5 rounded-lg shadow-2xl ">
                 <div className="flex justify-start h-full">
                     <div className="h-full">
                         <img
                             className="h-full w-64 rounded-l-lg "
-                            src="Images\15.png"
+                            src="/Images/15.png"
                             alt=""
                         />
                     </div>

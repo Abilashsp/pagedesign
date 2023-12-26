@@ -109,7 +109,7 @@ export default function Deempathyzing() {
         <div className="min-h-screen  w-screen">
             <header className=" w-full mx-auto h-1/2 ">
                 <nav className=" px-8 py-8 mx-auto flex w-full items-center h-20  p-3 lg:px-8" aria-label="Global">
-                    <div className="absolute inset-0 -z-10  h-1/2 w-4/5 object-cover my-32 mx-auto ">
+                    <div className="absolute inset-0 -z-10  h-1/2 w-full object-cover my-32 ">
 
                         <div className=' bg-[#1e3c5f] px-12 py-12'>
                             <h1 className='text-3xl my-3 text-gray-50 font-medium'>Special offer for existing <br/> customers</h1>

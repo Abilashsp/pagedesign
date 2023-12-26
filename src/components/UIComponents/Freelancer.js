@@ -41,8 +41,8 @@ const stars = () => {
 export default function Example() {
     const [selected, setSelected] = useState(people[3])
     return (
-        <div className="w-screen h-screen bg-gray-200 flex  items-center justify-center ">
-            <div role="list" className="w-[230px] mx-auto h-[300px]">
+        <div className="w-screen h-screen bg-gray-200 ">
+            <div role="list" className="w-[230px]  h-[300px]">
                 <div className=" w-full h-full  bg-[#505f96] shadow-xl relative  border-2  rounded-lg " >
                     <div className='px-5 py-3'>
                         <div>

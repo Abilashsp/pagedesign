@@ -52,7 +52,7 @@ const youtubedata=[
 export default function Tweet() {
     return (
         <div className="w-full h-screen">
-            <div className=" w-4/5 mx-auto mt-10 h-full">
+            <div className=" w-4/5  h-full">
 
                 <div className="bg-white px-2 py- w-full  h-auto sm:px-6 relative ">
                     <div>

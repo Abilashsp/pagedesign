@@ -139,7 +139,7 @@ export default function Example() {
 
     return (
         <div className="w-screen h-screen overflow-hidden">
-            <div className='w-4/6 mx-auto h-full flex items-center'>
+            <div className='w-4/6 h-full flex '>
                 <div className="  mx-auto w-full bg-white h-5/6 flex">
                     <div className="h-full  ">
                         <div className="hidden  lg:inset-y-0 lg:z-50 lg:flex lg:w-72 lg:flex-col h-full">

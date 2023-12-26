@@ -60,7 +60,7 @@ export default function Tweet() {
         <div className="w-full h-screen  ">
             <div>
             <div className=" w-3/5 mx-auto flex h-full">
-                <div className="absolute inset-0 -z-10  h-1/2 w-full object-cover my-12 mx-auto ">
+                <div className="absolute inset-0 -z-10  h-1/2 w-full object-cover mx-auto ">
                     <div className="">
                         <img
                             src="/Images/43.jpeg"
@@ -71,7 +71,7 @@ export default function Tweet() {
 
                 </div>
 
-                <div className="bg-white  w-full  mt-28 h-60  relative flex rounded-xl  ">
+                <div className="bg-white  w-full  mt-10 h-60  relative flex rounded-xl  ">
                     <div className="flex-shrink-0 relative ">
                         <img
                             className="w-80 h-60  rounded-l-xl object-cover shadow-inner blur-0 shadow-gray-50 "
@@ -111,10 +111,10 @@ export default function Tweet() {
                 </div>
                 
             </div>
-            <div className="w-10 h-10 bg-indigo-500 rounded-full flex items-center justify-center absolute left-72 top-56 ">
+            <div className="w-10 h-10 bg-indigo-500 rounded-full flex items-center justify-center absolute top-40 left-72  ">
                         <ArrowLeft className="w-6 h-6 text-gray-100"/>
                     </div>
-                    <div className="w-10 h-10 bg-indigo-500 rounded-full flex items-center justify-center absolute right-72 top-56 ">
+                    <div className="w-10 h-10 bg-indigo-500 rounded-full flex items-center justify-center absolute top-40   right-72 ">
                         <ArrowRight className="w-6 h-6 text-gray-100"/>
                     </div>
             </div>

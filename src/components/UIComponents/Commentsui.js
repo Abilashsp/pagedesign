@@ -42,8 +42,8 @@ export default function Commentsui() {
 
   return (
     <div>
-    <div className="  space-x-4 h-screen w-full  font-sans  px-11">
-      <div className='  w-1/3 bg-white px-2 py-2 rounded-md shadow-lg mt-32 '>
+    <div className="flex items-start space-x-4 h-screen w-full   font-sans ">
+      <div className='  w-1/3 bg-white px-2 py-2 rounded-md shadow-lg  '>
         <div className='px-2 py-2 font-bold text-gray-600'>
           <h1 className=' py-2'>Add New Comments</h1>
         </div>
@@ -56,7 +56,6 @@ export default function Commentsui() {
         />
       </div>
       <div className="min-w-0 flex-1">
- 
           <div className="overflow-hidden rounded-lg shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-indigo-600">
             <label htmlFor="comment" className="sr-only">
               Add your comment

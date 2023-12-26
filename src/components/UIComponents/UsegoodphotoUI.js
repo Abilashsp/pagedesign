@@ -22,8 +22,8 @@ const stars=()=>{
 
 export default function Example() {
     return (
-        <div className="w-screen h-screen bg-white flex  items-center justify-center ">
-            <div role="list" className="w-1/5 mx-auto h-[400px]">
+        <div className="w-screen h-screen bg-white  ">
+            <div role="list" className="w-1/5  h-[400px]">
                 <div className=" w-full h-full  bg-[#f0f0f5] shadow-xl relative px-5 py-6 " >
                     <div className="flex-shrink-0 relative ">
                         <img

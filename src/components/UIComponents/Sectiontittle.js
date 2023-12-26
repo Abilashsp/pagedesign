@@ -40,7 +40,7 @@ function classNames(...classes) {
 export default function Example() {
     const [query, setQuery] = useState('')
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-    const [active, setactive] = useState(null);
+    const [active, setactive] = useState("Account");
 
 
     const activelink = (id) => {
@@ -56,13 +56,14 @@ export default function Example() {
             })
 
     return (
-        <div className='w-3/5 mx-auto'>
-            <header className="bg-blue-950 w-full mx-auto mt-3 rounded-t-xl">
+        <div className='h-screen'>
+        <div className='w-3/5 '>
+            <header className="bg-blue-950 w-full mx-auto  rounded-t-xl">
                 <nav className="mx-auto flex max-w-4xl items-center justify-between p-3 lg:px-8" aria-label="Global">
                     <div className="flex lg:flex-1">
                         <a href="#" className="-m-1.5 p-1.5">
                             <span className="sr-only">Your Company</span>
-                            <img className="h-12 w-auto" src="Images\14.png" alt="" />
+                            <img className="h-12 w-auto" src="/Images/14.png" alt="" />
                         </a>
                     </div>
                     <div className="flex lg:hidden">
@@ -84,7 +85,7 @@ export default function Example() {
                         />
                         <Combobox onChange={(person) => (window.location = person.url)}>
                             <Combobox.Input
-                                className="h-12 w-4/5  rounded-3xl bg-transparent pl-11 pr-4 text-gray-900 bg-slate-400  placeholder:text-white focus:ring-0 sm:text-sm"
+                                className="h-12 w-4/5  rounded-3xl border-2 bg-transparent pl-11 pr-4 text-gray-900 bg-slate-400  placeholder:text-white focus:ring-0 sm:text-sm"
                                 placeholder="Search..."
                                 onChange={(event) => setQuery(event.target.value)}
                             />
@@ -176,6 +177,7 @@ export default function Example() {
 
 
 
+        </div>
         </div>
 
     )

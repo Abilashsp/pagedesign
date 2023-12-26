@@ -40,7 +40,7 @@ const people = [
 export default function Example() {
     return (
         <div className="w-screen h-screen ">
-            <div role="list" className="w-[380px] mx-auto mt-16 h-[170px]  ">
+            <div role="list" className="w-[380px] h-[170px]  ">
                 <div className=" w-full h-full   shadow-xl relative rounded-md" >
 
                     <div >

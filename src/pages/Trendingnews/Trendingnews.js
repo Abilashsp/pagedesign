@@ -132,8 +132,8 @@ export default function Deempathyzing() {
 
     return (
         <div className="min-h-screen  w-screen">
-            <header className="bg-white w-full mx-auto h-24 ">
-                <nav className="mx-auto flex w-full items-center justify-between p-2 lg:px-8" aria-label="Global">
+            <header className="bg-white w-full mx-auto h-20 ">
+                <nav className="mx-auto flex w-full items-center justify-between  lg:px-8" aria-label="Global">
                     <div className="flex lg:flex-1">
 
 
@@ -188,26 +188,17 @@ export default function Deempathyzing() {
 
             <div>
                 <div className='flex items-center justify-end'>
-                    <div className=' h-full'>
-
-                    </div>
-
-
-
-
-
                     <div className='w-3/5  flex justify-end '>
-                        <div className=" w-4/5  mb-1">
-                            <div className='w-full h-20 bg-gray-100 '>
-                                <div className='px-4 py-4'>
-                                    <div className='px-4 '>
-
-                                        <div className="relative mt-2 rounded-md shadow-sm">
+                        <div className=" w-4/5  mb-2">
+                            <div className='w-full h-20 bg-gray-100 px-4  sm:px-6 flex items-center  '>
+                                <div className='px-4 py-4 w-full '>
+                                    <div className='px-4 w-full'>
+                                        <div className="relative mt-2 rounded-md shadow-sm w-full">
                                             <input
                                                 type="text"
                                                 name="account-number"
                                                 id="account-number"
-                                                className="block w-full rounded-lg border-0  bg-gray-100 py-3 px-2 pr-10 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 placeholder:font-semibold focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                                                className="block w-full rounded-lg border-0  bg-gray-50 py-2 px-2 pr-10 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 placeholder:font-semibold focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                                                 placeholder="Type your Message"
                                             />
                                             <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-3">
@@ -221,7 +212,7 @@ export default function Deempathyzing() {
 
                             </div>
                             {activityItems.map((item) => (
-                                <div className="bg-white px-4 py-5 sm:px-6 border-2 relative w-full">
+                                <div className="bg-white px-4 py-5 sm:px-6  border-b-2 relative w-full">
                                     <div className="flex space-x-3">
                                         <div className="flex-shrink-0">
                                             <img

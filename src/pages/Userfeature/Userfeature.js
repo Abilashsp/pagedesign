@@ -94,20 +94,20 @@ export default function Tweet() {
     return (
         <div className="w-full h-screen"> 
             <div className=" w-2/5 mx-auto h-full  py-32">
-                <div className=''>
+                <div className=' border-l-4 border-[#67a1e5]'>
          
-                    <div className="bg-white px-4 py-3 sm:px-6 border relative w-full mt-2 shadow-md shadow-gray-400 ">
+                    <div className="bg-[#f0f5ff] px-5 py-3 sm:px-5 border relative w-full mt-2 shadow-md shadow-gray-400 ">
                         <div className='flex items-center'>
 
                         <div>
                             <div>
-                                <ExclamationCircle className="w-5 h-5"/>
+                                <ExclamationCircle className="w-5 h-5 text-[#67a1e5]"/>
                             </div>
 
                         </div>
 
                         <div>
-                            <h1 className='mx-2 text-sm font-medium'>
+                            <h1 className='mx-2 text-sm font-medium  text-gray-800 '>
                                 Pro user feature
 
                             </h1>
@@ -117,9 +117,9 @@ export default function Tweet() {
                 
 
                     </div>
-                    <div>
-                    <h2  className='mx-2 text-xs'>
-                              This is feature available to the pro user at an additional cost.Check out our <span className='text-[#468ce1]'>pricing information</span> to learn more and activate free trial.
+                    <div className='px-5 py-1'>
+                    <h2  className=' text-xs leading-6  font-medium text-gray-500  px-2'>
+                              This is feature available to the pro user at an additional cost.Check out our <span className='text-[#468ce1] underline'>pricing information</span>   to learn more and activate free trial.
                             </h2>
                     </div>
                     </div>

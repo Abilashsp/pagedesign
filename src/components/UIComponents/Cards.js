@@ -26,11 +26,11 @@ export default function Cards() {
 
 
     return (
-        <div className="w-full flex items-center justify-center h-screen  mx-auto font-normal">
+        <div className="w-full  h-screen  font-normal">
             <div className="border-b border-gray-200 bg-white  flex h-2/5 rounded-lg border-2 w-2/5">
                 <div className='flex justify-end '>
                     <img
-                        src="Images\08.jpg"
+                        src="/Images/08.jpg"
                         alt=""
                         className=" h-full w-full object-cover bg-white rounded-l-lg"
                     />

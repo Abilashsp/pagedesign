@@ -23,7 +23,7 @@ export default function Example() {
     const [selected, setSelected] = useState(people[3])
     return (
         <div className="w-screen h-screen ">
-            <div role="list" className="w-1/5 mx-auto mt-16 h-2/6">
+            <div role="list" className="w-1/5  h-[36%]">
                 <div
                     className=" w-full h-full rounded-lg bg-white text-center shadow-xl"
                 >
@@ -113,10 +113,10 @@ export default function Example() {
                     <div className='flex items-center border-b-2'>
 
                         <div className='flex justify-center items-center mx-2 px-2 py-4 '>
-<CalendarIcon className="w-6 h-6 mb-5 text-gray-500"/>
+<CalendarIcon className="w-5 h-5 mb-5 text-gray-500"/>
                         </div>
 
-                        <div className='mx-2 px-2 py-4 text-left'>
+                        <div className=' px-2 py-4 text-left text-sm'>
                             <div className='flex items-center'>
                                 <div>June 28,2018</div>
                                 <div className='px-2'>8:30AM to 9:30AM</div>

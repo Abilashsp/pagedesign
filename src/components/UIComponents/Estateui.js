@@ -21,12 +21,12 @@ const like=()=>{
 
     return (
         <div className="w-full h-screen">
-            <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mt-10 mx-auto ">
+            <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700  ">
                 <div className="relative">
                      <CiHeart  className={`absolute right-1 top-1 w-8 h-8  text-white ${active?"":" "}`} onClick={like}/>
                     <img
                         className="h-60 w-full rounded-t-lg  "
-                        src="Images\11.jpg"
+                        src="/Images/11.jpg"
                         alt=""
                     />
                 </div>

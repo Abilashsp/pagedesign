@@ -6,7 +6,7 @@ import { IoIosLock } from "react-icons/io";
 export default function Example() {
     return (
         <div className="w-screen h-screen ">
-            <div role="list" className="w-1/5 mx-auto mt-16 h-2/6">
+            <div role="list" className="w-1/5  h-2/5">
                 <div
                     className=" w-full h-full rounded-lg bg-white text-center shadow-xl"
                 >

@@ -39,12 +39,14 @@ export default function Flightbookui() {
         { id: 'Round Trip', title: 'Round Trip' },
         { id: 'One Way', title: 'One Way' },
     ]
+
+    const lastIndex=info.length-1
     return (
         <>
-            <div className="flex min-h-full flex-1 flex-col justify-center py-12 sm:px-6 lg:px-8">
+            <div className="flex h-screen flex-1 flex-col  bg-slate-100  ">
 
-                <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-[480px] rounded-b-xl">
-                    <div className="  shadow sm:rounded-b-lg ">
+                <div className=" sm:w-full sm:max-w-[480px] rounded-xl">
+                    <div className="  shadow sm:rounded-xl ">
                         <div className="bg-white w-full px-5 py-5 rounded-t-xl ">
                             <div className="flex items-baseline justify-between">
                                 < h1 className="text-2xl text-gray-800 font-bold">Who to Follow</h1>
@@ -57,10 +59,10 @@ export default function Flightbookui() {
                             </div>
                         </div>
 
-                        <div className="bg-gray-50 w-full px-4 py-8  ">
+                        <div className="bg-gray-50 w-full px-4 py-8  rounded-xl ">
                             <div className="">
-                                {info.map((information) => (
-                                    <div className="flex items-center px-2 py-3 border-b border-gray-300">
+                                {info.map((information,index) => (
+                                    <div className={`flex items-center px-2 py-3 ${index!==lastIndex?" border-b border-gray-300":" "} `}>
                                         <div className="flex-shrink-0">
                                             <img
                                                 className="h-16 w-16 rounded-full"

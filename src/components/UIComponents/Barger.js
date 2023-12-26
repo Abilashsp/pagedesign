@@ -80,7 +80,7 @@ export default function Tweet() {
 
     return (
         <div className="w-full h-screen">
-            <div className=" w-3/5 mx-auto mt-2 h-full">
+            <div className=" w-3/5   h-full">
 
                 <div className="bg-gray-200 px-4 py-5 w-full  h-auto sm:px-6 relative ">
                     <div>
