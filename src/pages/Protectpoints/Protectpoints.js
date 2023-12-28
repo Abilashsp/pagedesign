@@ -21,8 +21,8 @@ const stars = () => {
 
 export default function Example() {
     return (
-        <div className="w-screen h-screen bg-white flex  items-center justify-center ">
-            <div role="list" className="w-3/12 mx-auto h-[400px">
+        <div className="w-screen h-screen bg-white  ">
+            <div role="list" className="w-3/12  h-[400px">
                 <div className=" w-full h-full  bg-white relative  border-2 border-gray-200 " >
                       <div className='  px-8 py-6'>
                         <h1 className='text-base font-semibold text-gray-700 tracking-wide'>Protecting your customers and income</h1>

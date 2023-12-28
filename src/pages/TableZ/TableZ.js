@@ -36,11 +36,11 @@ export default function Example() {
 
   return (
     <div className="h-screen w-screen">
-      <div className="w-3/6 bg-[#f5f5fa] mx-auto mt-10">
-        <div className="px-4 sm:px-6 lg:px-8 ">
+      <div className="w-3/6 bg-[#f5f5fa]  ">
+        <div className="px-4 sm:px-6 lg:px-5 ">
           <div className="sm:flex sm:items-center">
             <div className="sm:flex-auto">
-              <div className="w-full max-w-lg lg:w-2/5 mt-4  ">
+              <div className="w-full max-w-lg lg:w-4/6 mt-4  sm:px-6 lg:px-24">
                 <label htmlFor="search" className="sr-only">
                   Search
                 </label>
@@ -61,7 +61,7 @@ export default function Example() {
             </div>
 
           </div>
-          <div className="mt-8 ">
+          <div className="mt-4 ">
             <div className=" overflow-x-auto">
               <div className="inline-block min-w-full py-2  sm:px-6 lg:px-12">
                 <table className="min-w-full divide-y  ">

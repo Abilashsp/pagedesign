@@ -93,7 +93,7 @@ const stars = (noOfStar) => {
 export default function Tweet() {
     return (
         <div className="w-full h-screen">
-            <div className=" w-2/6  mx-auto h-full  py-32">
+            <div className=" w-2/6   h-full ">
                 <div className=' '>
 
                     <div className="bg-[#373773]  py-8 sm:px-12  relative w-full mt-2 shadow-md shadow-gray-400 ">

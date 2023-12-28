@@ -85,11 +85,11 @@ const activityItems = [
 
 
 
-export default function Tweet() {
+export default function Tweet({activities=activityItems}) {
     return (
         <div className="w-full h-screen">
-            <div className=" w-2/5  ">
-                {activityItems.map((item) => (
+         
+                {activities.map((item) => (
                     <div className="bg-white px-4 py-5 sm:px-6 border-2 relative">
                         <div className="flex space-x-3">
                             <div className="flex-shrink-0">
@@ -143,6 +143,6 @@ export default function Tweet() {
 
                 ))}
             </div>
-        </div>
+    
     )
 }
