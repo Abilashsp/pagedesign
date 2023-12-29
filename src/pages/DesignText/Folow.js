@@ -1,14 +1,4 @@
-import { CiLocationOn } from "react-icons/ci";
-import { CiCalendar } from "react-icons/ci";
-import { Fragment } from 'react'
-import { Menu, Transition } from '@headlessui/react'
-import { ChevronDownIcon, ChevronUpIcon } from '@heroicons/react/20/solid'
-import { CiUser } from "react-icons/ci";
-import { CiStar } from "react-icons/ci";
 
-function classNames(...classes) {
-    return classes.filter(Boolean).join(' ')
-}
 
 
 
@@ -18,28 +8,8 @@ const info = [
     { Name: "Russell Robertson", imageurl: "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80", mutual: "2" },
     { Name: "Kathleen Ellis", imageurl: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80", mutual: "2" }
 ]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-export default function Flightbookui() {
-    const notificationMethods = [
-        { id: 'Round Trip', title: 'Round Trip' },
-        { id: 'One Way', title: 'One Way' },
-    ]
-
+export default function Follow() {
+    
     const lastIndex=info.length-1
     return (
         <>

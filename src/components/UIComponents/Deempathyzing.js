@@ -17,12 +17,7 @@ export default function Deempathyzing() {
 const activelink=(id)=>{
     setactive(id)
 }
-const navigation = [
-  { name: 'Dashboard', href: '#' },
-  { name: 'Orders', href: '#' },
-  { name: 'Products', href: '#' },
-  { name: 'Discounts', href: '#' },
-]
+
 
 
 

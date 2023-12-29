@@ -1,8 +1,13 @@
 import React from 'react'
+import  DashboardNavigation from "../../components/Seed/DashBoardnav"
+
+
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
 }
-export default function Dashbordnav({navigation}) {
+
+export default function Dashbordnav({nav=DashboardNavigation}) {
+   
   return (
     <div className="hidden lg:fixed lg:inset-y-0 lg:z-50 lg:flex lg:w-72 lg:flex-col">
 
@@ -18,7 +23,7 @@ export default function Dashbordnav({navigation}) {
             <ul role="list" className="flex flex-1 flex-col gap-y-7">
                 <li>
                     <ul role="list" className="-mx-2 space-y-1">
-                        {navigation.map((item) => (
+                        {nav.map((item) => (
                             <li key={item.name}>
                                 <a
                                     href={item.href}

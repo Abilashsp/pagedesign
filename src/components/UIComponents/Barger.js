@@ -28,8 +28,6 @@ const youtubedata = [
     { image: "/Images/56.jpeg", duration: "5", tittle: "Ultimate Double-Decker Burger", Desc: "Here's your for a crowd pleasing backyard barbecue", Name: "Jessy pinkman", time: "2 year" },
     { image: "/Images/57.jpeg", duration: "1", tittle: "Homemade Cheese Burger", Desc: "Here's your for a crowd pleasing backyard barbecue", Name: "Skyler", time: "8 months" },
     { image: "/Images/58.jpeg", duration: "2", tittle: "Green Tomoto Fried Burger", Desc: "Here's your for a crowd pleasing backyard barbecue", Name: "Hank Douglas", time: "1 year" },
-
-
 ]
 
 

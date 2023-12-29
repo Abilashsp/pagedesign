@@ -4,22 +4,15 @@ import { Fragment, useState } from 'react'
 import { Listbox, Transition } from '@headlessui/react'
 import { CheckIcon, ChevronDownIcon } from '@heroicons/react/20/solid'
 import { ChevronRight,ShoppingCart,Check } from 'react-hero-icon/outline'
+import Colors from '@/components/Seed/Colors';
 
-const people = [
-    { id: 1, name: 'bg-green-500' },
-    { id: 2, name: 'bg-yellow-500' },
 
-    { id: 3, name: 'bg-blue-500' },
-    { id: 4, name: 'bg-pink-500' },
-]
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
 }
 
-
-
-export default function Example() {
+export default function Example({people=Colors}) {
     const [selected, setSelected] = useState(people[3])
     return (
         <div className="w-screen h-screen ">

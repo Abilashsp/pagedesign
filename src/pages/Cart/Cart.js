@@ -1,94 +1,9 @@
-import { Fragment } from 'react'
-import { Menu, Transition } from '@headlessui/react'
+
 import { CodeBracketIcon, EllipsisVerticalIcon, FlagIcon, StarIcon, MinusIcon, PlusIcon, XMarkIcon } from '@heroicons/react/20/solid'
-import { BiLike } from "react-icons/bi";
-import { MdOutlineModeComment } from "react-icons/md";
-import { FiShare } from "react-icons/fi";
-
-function classNames(...classes) {
-    return classes.filter(Boolean).join(' ')
-}
+import CartItems from '@/components/Seed/CartItems';
 
 
-
-const activityItems = [
-    {
-
-        name: 'Elonoir chair',
-        imageUrl: '/Images/61.jpeg',
-        description: "Arm chair",
-        role: 'Human Resources',
-        like: "$429.00",
-        comment: 17,
-        date: '8h ago',
-        dateTime: '2023-01-23T11:00',
-    },
-    {
-
-        name: 'Gilroy Night Stand',
-        imageUrl: '/Images/62.jpeg',
-
-        description: "Tables",
-        role: 'Sr. Front-End Developer',
-        like: "$79.00",
-        comment: 2,
-        date: '45 minutes ago',
-        dateTime: '2023-01-23T11:00',
-    },
-    {
-
-        name: `Hatchling light`,
-        imageUrl: '/Images/63.jpeg',
-        description: "Lighting",
-        role: 'Product designer',
-        like: "$99",
-        comment: 8,
-        date: '17 minutes ago',
-        dateTime: '2023-01-23T11:00',
-    },
-
-]
-
-
-
-
-
-
-const stars = (noOfStar) => {
-    const starComponents = [];
-    for (let i = 0; i < 5; i++) {
-        const starColor = i < noOfStar ? "text-[#f5a440]" : "text-gray-400";
-        starComponents.push(<StarIcon key={i} className={`text-xs w-5 h-5 ${starColor}`} />);
-    }
-    return <div className="flex">{starComponents}</div>;
-};
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-export default function Tweet() {
+export default function Tweet({activityItems=CartItems}) {
     return (
         <div className="w-full h-screen"> 
             <div className=" w-2/5  h-full ">

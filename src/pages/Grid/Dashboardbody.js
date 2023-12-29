@@ -1,17 +1,27 @@
 import React from 'react'
 import { Fragment, useState } from 'react'
 import { Listbox } from '@headlessui/react'
-import { ChevronDownIcon, MagnifyingGlassIcon,ChevronUpDownIcon } from '@heroicons/react/20/solid'
-import {
-   
+import {ChevronUpDownIcon } from '@heroicons/react/20/solid'
+import {  
     ChevronRightIcon,CheckIcon
 } from '@heroicons/react/24/outline'
 import { Dialog, Menu, Transition } from '@headlessui/react'
+import {DashbordPeople,DashboardDashview} from "../../components/Seed/Dashboarddata"
+
+
+
+
+
+
+
+
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
 }
-export default function Dashboardbody({...props}) {
-    const {selected,setSelected,dashview,people}=props
+export default function Dashboardbody({people=DashbordPeople,dashview=DashboardDashview}) {
+    const [selected, setSelected] = useState(people[3])
+
+
   return (
     <div className="px-4 sm:px-6 lg:px-8">
     <div className="flex justify-between items-center">

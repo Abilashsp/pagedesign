@@ -1,6 +1,7 @@
 import React from 'react'
+import {messagesdata} from "../../components/Seed/BowenChat"
 
-export default function Chats({messages}) {
+export default function Chats({messages=messagesdata}) {
   return (
     <div className="bg-white px-4 py-5 sm:px-6">
     {messages.map((e) => (

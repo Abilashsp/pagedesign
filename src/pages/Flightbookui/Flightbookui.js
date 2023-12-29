@@ -5,15 +5,10 @@ import { Menu, Transition } from '@headlessui/react'
 import { ChevronDownIcon, ChevronUpIcon } from '@heroicons/react/20/solid'
 import { CiUser } from "react-icons/ci";
 import { CiStar } from "react-icons/ci";
+import Radiodata from "../../components/Seed/FlightNotificationRd"
 
-function classNames(...classes) {
-    return classes.filter(Boolean).join(' ')
-}
-export default function Flightbookui() {
-    const notificationMethods = [
-        { id: 'Round Trip', title: 'Round Trip' },
-        { id: 'One Way', title: 'One Way' },
-    ]
+export default function Flightbookui({notificationMethods=Radiodata}) {
+   
     return (
         <>
             <div className="flex min-h-full flex-1 flex-col justify-center ">

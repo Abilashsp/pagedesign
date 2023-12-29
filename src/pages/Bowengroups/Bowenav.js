@@ -5,51 +5,23 @@ import { CheckIcon, ChevronUpDownIcon } from '@heroicons/react/20/solid'
 import { Fragment, useState } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { BellIcon } from '@heroicons/react/24/outline'
-
-
 import {
-    CalendarIcon,
-    ChartPieIcon,
-    Cog6ToothIcon,
-    DocumentDuplicateIcon,
-    FolderIcon,
-    ChartBarSquareIcon,
-    NewspaperIcon,
-    ChevronRightIcon,
-    StarIcon,
-    InboxIcon,
+
     PlusIcon,
     ArchiveBoxIcon,
-    ChevronLeftIcon,
-    ArrowLeftIcon,
-    ArrowRightIcon,
-    ExclamationCircleIcon,
-    AtSymbolIcon,
-    FaceSmileIcon
-
-
+ 
 } from '@heroicons/react/24/outline'
-const people = [
-    { id: 1, name: 'Wade Cooper' },
-    { id: 2, name: 'Arlene Mccoy' },
-    { id: 3, name: 'Devon Webb' },
-    { id: 4, name: 'Tom Cook' },
-    { id: 5, name: 'Tanya Fox' },
-    { id: 6, name: 'Hellen Schmidt' },
-    { id: 7, name: 'Caroline Schultz' },
-    { id: 8, name: 'Mason Heaney' },
-    { id: 9, name: 'Claudie Smitham' },
-    { id: 10, name: 'Emil Schaefer' },
-]
+import Bowenpeopledata from '@/components/Seed/Bowenpeopledata'
+import {sidebarnavigation,Channelsdata,messagesdata} from "../../components/Seed/BowenChat"
+
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
 }
 
-export default function Bowenav({...props}) {
-const{ selected,setSelected,navigation,Channels}=props.properties
-     
-
+export default function Bowenav({Bowenpeoples=Bowenpeopledata,navigation=sidebarnavigation,Channels=Channelsdata}) {
+    const [selected, setSelected] = useState(Bowenpeoples[3])
+     console.log(navigation)
 
   return (
     <div className="hidden  lg:inset-y-0 lg:z-50 lg:flex lg:w-72 lg:flex-col h-full">
@@ -78,7 +50,7 @@ const{ selected,setSelected,navigation,Channels}=props.properties
                                     leaveTo="opacity-0"
                                 >
                                     <Listbox.Options className="absolute z-10 mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm">
-                                        {people.map((person) => (
+                                        {Bowenpeoples.map((person) => (
                                             <Listbox.Option
                                                 key={person.id}
                                                 className={({ active }) =>

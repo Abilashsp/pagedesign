@@ -5,13 +5,7 @@ import { Listbox, Transition } from '@headlessui/react'
 import { CheckIcon, ChevronDownIcon } from '@heroicons/react/20/solid'
 import { ChevronRight,ShoppingCart,Check } from 'react-hero-icon/outline'
 
-const people = [
-    { id: 1, name: 'bg-green-500' },
-    { id: 2, name: 'bg-yellow-500' },
 
-    { id: 3, name: 'bg-blue-500' },
-    { id: 4, name: 'bg-pink-500' },
-]
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')

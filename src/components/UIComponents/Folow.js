@@ -35,11 +35,7 @@ const info = [
 
 
 export default function Flightbookui() {
-    const notificationMethods = [
-        { id: 'Round Trip', title: 'Round Trip' },
-        { id: 'One Way', title: 'One Way' },
-    ]
-
+ 
     const lastIndex=info.length-1
     return (
         <>

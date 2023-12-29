@@ -30,7 +30,7 @@ import Bar from "./Bar"
 import Navbar from './Navbar';
 
 import ActivityItems from "../../components/Seed/ActivityItems"
-import Info from "../../components/Seed/Info"
+import Info from "../../components/Seed/infodata"
 
 
 
