@@ -1,7 +1,7 @@
 import React from 'react'
+import Trendings from "../../components/Seed/Trendingdata"
 
-export default function Trending({...props}) {
-    const {trending} =props
+export default function Trending({trending=Trendings}) {
     return (
         <div className="flex min-h-full flex-1 flex-col justify-center sm:px-6 lg:px-8">
             <div className=" sm:mx-auto sm:w-full sm:max-w-[350px] ">
