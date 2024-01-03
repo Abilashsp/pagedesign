@@ -4,6 +4,7 @@ import { Fragment, useState } from 'react'
 import { Listbox, Transition } from '@headlessui/react'
 import { CheckIcon, ChevronDownIcon } from '@heroicons/react/20/solid'
 import { ChevronRight,ShoppingCart,Check } from 'react-hero-icon/outline'
+import Colors from '@/components/Seed/Colors';
 
 
 
@@ -11,9 +12,7 @@ function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
 }
 
-
-
-export default function Example() {
+export default function Example({people=Colors}) {
     const [selected, setSelected] = useState(people[3])
     return (
         <div className="w-screen h-screen ">
@@ -153,7 +152,32 @@ export default function Example() {
 
 
 
-          
+                    {/* <div>
+                        <div>
+                            <h1 className='text-lg text-gray-800'>The page is Password Protected</h1>
+                            <h1 className='text-sm font-normal text-gray-600 py-1'>Please enter the valid password to <br />
+                                access this page.</h1>
+                        </div>
+
+                        <div className='flex justify-center'>
+                            <div className="relative mt-2 flex items-center">
+                                <input
+                                    type="password"
+                                    name="search"
+                                    id="search"
+                                    className="block w-4/5 rounded-l-md  border-0 py-2.5 px-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                                />
+                                <button type="button" className="text-white rounded-r-md bg-blue-500 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium  text-sm px-3 py-3 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                    <ArrowRightIcon className="w-5 h-5" />
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+
+                    </div> */}
                 </div>
 
             </div>

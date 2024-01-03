@@ -4,7 +4,11 @@ import { MagnifyingGlassIcon } from '@heroicons/react/20/solid'
 import { Combobox } from '@headlessui/react'
 
 
+function classNames(...classes) {
+    return classes.filter(Boolean).join(' ')
+}
 export default function Sectiontittlenav() {
+    const[people,setpeople]=useState([{name:"alif"}])
     const [query, setQuery] = useState('')
     const filteredPeople =
         query === ''

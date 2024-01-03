@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import React from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
+import SectionNavigationdata from '@/components/Seed/Sectiontittledata'
 
 
 function classNames(...classes) {
@@ -8,7 +9,7 @@ function classNames(...classes) {
 }
 
 
-export default function Sectiontittletabs({SectionNavigation,activatedtab}) {
+export default function Sectiontittletabs({SectionNavigation=SectionNavigationdata,activatedtab}) {
     const [active, setactive] = useState("Account");
 
 

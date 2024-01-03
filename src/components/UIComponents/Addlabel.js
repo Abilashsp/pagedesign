@@ -14,7 +14,7 @@ export default function abel() {
         <div className="">
           <img
             className="h-36 w-32 rounded-l-lg "
-            src="Images\10.jpg"
+            src="\Images\10.jpg"
             alt=""
           />
         </div>

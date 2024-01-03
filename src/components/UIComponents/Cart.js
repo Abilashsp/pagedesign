@@ -1,17 +1,9 @@
-import { Fragment } from 'react'
-import { Menu, Transition } from '@headlessui/react'
+
 import { CodeBracketIcon, EllipsisVerticalIcon, FlagIcon, StarIcon, MinusIcon, PlusIcon, XMarkIcon } from '@heroicons/react/20/solid'
-import { BiLike } from "react-icons/bi";
-import { MdOutlineModeComment } from "react-icons/md";
-import { FiShare } from "react-icons/fi";
-import CartItems from '../Seed/CartItems';
+import CartItems from '@/components/Seed/CartItems';
 
 
-function classNames(...classes) {
-    return classes.filter(Boolean).join(' ')
-}
-
-export default function Tweet(activityItems=CartItems) {
+export default function Tweet({activityItems=CartItems}) {
     return (
         <div className="w-full h-screen"> 
             <div className=" w-2/5  h-full ">

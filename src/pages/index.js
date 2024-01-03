@@ -18,20 +18,14 @@ import {
 import { ChevronDownIcon, MagnifyingGlassIcon } from '@heroicons/react/20/solid'
 import { Listbox } from '@headlessui/react'
 import { CheckIcon, ChevronUpDownIcon } from '@heroicons/react/20/solid'
-
-
-
-
-
-
 import Addlabel from "@/components/UIComponents/Addlabel";
 import Agilemorning from "@/components/UIComponents/Agilemorning";
 import Argyle from "@/components/UIComponents/Argyle";
 import Barger from "@/components/UIComponents/Barger";
 import Bowen from "@/components/UIComponents/Bowen";
 import Bussinessui from "@/components/UIComponents/Bussinessui";
-import Card from "@/components/UIComponents/Card";
-import Card2 from "@/components/UIComponents/Card2";
+import Card from "@/components/UIComponents/CardwithCross";
+import Card2 from "@/components/UIComponents/CardwithUpandDown";
 import Chatui from "@/components/UIComponents/Chatui";
 import Commentsui from "@/components/UIComponents/Commentsui";
 import Dashboard from "@/components/UIComponents/Dashboard";

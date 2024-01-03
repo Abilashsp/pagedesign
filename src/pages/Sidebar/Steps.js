@@ -1,10 +1,11 @@
 import React from 'react'
+import { stepsdata } from '@/components/Seed/Sidebardata'
 
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
   }
-export default function Steps({steps}) {
+export default function Steps({steps=stepsdata}) {
   return (
     <nav aria-label="Progress">
     <div className="font-bold mb-3">STEP 1 OF 5</div>

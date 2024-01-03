@@ -1,8 +1,9 @@
 import React from 'react'
 import { useState } from 'react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import { navigationdata } from '@/components/Seed/Sidebardata';
 
-export default function navbar({navigation}) {
+export default function navbar({navigation=navigationdata}) {
     const [active, setactive] = useState(null);
 
 

@@ -9,16 +9,6 @@ import { CiHeart } from "react-icons/ci";
 import { ChevronRight,ShoppingCart,Check } from 'react-hero-icon/outline'
 
 
-const highlights = ["Non-smoking luxury hotel",
-    "Newly renovated suite",
-    "Nearby amenities",
-    "Heated indoor pool",
-    "Complimentary wifi internet service",
-    "Electric car charging station on-site"
-]
-
-
-
 
 
 

@@ -10,7 +10,6 @@ import { CiUser } from "react-icons/ci";
 import { CiStar } from "react-icons/ci";
 import { PhotoIcon, UserCircleIcon } from '@heroicons/react/24/solid'
 import { ChevronRight, ShoppingCart, Check } from 'react-hero-icon/outline'
-
 import { IoIosLock } from "react-icons/io";
 import { HiMapPin } from "react-icons/hi2";
 import { RiMapPinLine } from "react-icons/ri";
