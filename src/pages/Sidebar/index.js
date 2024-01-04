@@ -10,7 +10,7 @@ import { CiStar } from "react-icons/ci";
 import { CheckIcon } from '@heroicons/react/20/solid'
 import Flightbookui from '../Flightbookui';
 import Steps from './Steps';
-import Navbar from './Navbar'; 
+import Navbar from './StepsUInav'; 
 
 
 function classNames(...classes) {

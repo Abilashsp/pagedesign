@@ -19,7 +19,6 @@ export default function abel() {
                         />
                     </div>
 
-
                     <div className=" px-4 py-6 w-full">
                         <div className="flex justify-between w-full">
                             <h1 className="text-2xl text-sky-800 font-semibold ">Beige Wooden Bar Stool</h1>

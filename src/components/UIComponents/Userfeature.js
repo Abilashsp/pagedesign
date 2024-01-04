@@ -14,13 +14,15 @@ function classNames(...classes) {
 
 
 
+
+
 export default function Tweet() {
     return (
         <div className="w-full h-screen"> 
-            <div className=" w-2/5  h-full  ">
+            <div className=" w-2/5 mx-auto h-full  py-32">
                 <div className=' border-l-4 border-[#67a1e5]'>
          
-                    <div className="bg-[#f0f5ff] px-5 py-3 sm:px-5 border relative w-full shadow-md shadow-gray-400 ">
+                    <div className="bg-[#f0f5ff] px-5 py-3 sm:px-5 border relative w-full mt-2 shadow-md shadow-gray-400 ">
                         <div className='flex items-center'>
 
                         <div>

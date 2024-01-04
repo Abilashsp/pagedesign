@@ -1,9 +1,5 @@
 
  import React from 'react'
- 
- export default function HeroSection() {
-   return (
-     <div>HeroSection</div>
-   )
- }
- 
+ import Helloworld from './Helloworld'
+
+export default Helloworld;

@@ -4,7 +4,7 @@ import { CodeBracketIcon, EllipsisVerticalIcon, FlagIcon, StarIcon } from '@hero
 import { BiLike } from "react-icons/bi";
 import { MdOutlineModeComment } from "react-icons/md";
 import { FiShare } from "react-icons/fi";
-import Restaurantdata from "../Seed/Restaurantdatas"
+import Restaurantdata from "../../components/Seed/Restaurantdatas"
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')

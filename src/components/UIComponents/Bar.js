@@ -1,12 +1,7 @@
 import React from 'react'
 import {
-
-    AtSymbolIcon,
-    FaceSmileIcon,
     PhotoIcon,
     VideoCameraIcon
-
-
 } from '@heroicons/react/24/outline'
 
 export default function Bar() {

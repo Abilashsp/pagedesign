@@ -7,7 +7,6 @@ import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { BellIcon } from '@heroicons/react/24/outline'
 import { CiHeart } from "react-icons/ci";
 
-
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
 }
