@@ -1,5 +1,13 @@
+import React from 'react'
 
- import React from 'react'
- import Helloworld from './Helloworld'
+export default function HeroSection() {
 
-export default Helloworld;
+
+    const data=fetch("../Font/Roboto-Black.ttf")
+    .then(response => response.arrayBuffer())
+
+    console.log(data)
+  return (
+    <div>HeroSection</div>
+  )
+}

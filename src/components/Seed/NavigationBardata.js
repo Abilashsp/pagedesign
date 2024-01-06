@@ -1,8 +1,8 @@
 const NavgationBar = [
-    { name: 'Dashboard', href: '#' },
-    { name: 'Orders', href: '#' },
-    { name: 'Products', href: '#' },
-    { name: 'Discounts', href: '#' },
-  ]
+  { name: "Dashboard", href: "#" },
+  { name: "Orders", href: "#" },
+  { name: "Products", href: "#" },
+  { name: "Discounts", href: "#" },
+];
 
-  export default NavgationBar
+export default NavgationBar;

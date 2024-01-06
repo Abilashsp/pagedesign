@@ -1,5 +1,5 @@
 
-import Helloworld from "@/components/Helloworld";
+import Helloworld from "@/components/ReactToSvg";
 import HeroSection from "@/components/HeroSection";
 import { initPlasmicLoader } from "@plasmicapp/loader-nextjs";
 import Addlabel from "@/components/UIComponents/Addlabel";
