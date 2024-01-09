@@ -5,7 +5,7 @@ export default function Navbar({ data = Navbardata }) {
   return (
     <div className="w-full h-full  font-WTfont">
       <div className="w-full relative mx-auto ">
-        <header className="bg-white w-full top-0 z-10 fixed py-2">
+        <header className="bg-white w-full top-0 z-20 fixed py-2">
           <nav
             className="mx-auto flex w-full items-center justify-between p-3 lg:px-8"
             aria-label="Global"
