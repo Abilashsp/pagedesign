@@ -19,6 +19,10 @@ module.exports = {
         planttittlecolor:'#193755',
         loginbuttoncolor:"#237d91",
       },
+      fontFamily:{
+        WTfont:"'Open Sans',Arial,sans-serif",
+        Startup:"Arial,Arial,sans-serif"
+      }
    
     },
   },

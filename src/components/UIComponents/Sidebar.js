@@ -8,7 +8,7 @@ import { ChevronDownIcon, ChevronUpIcon } from '@heroicons/react/20/solid'
 import { CiUser } from "react-icons/ci";
 import { CiStar } from "react-icons/ci";
 import { CheckIcon } from '@heroicons/react/20/solid'
-import Flightbookui from '../Flightbookui';
+import Flightbookui from './Flightbookui';
 import Steps from './Steps';
 import Navbar from './Navbar'; 
 
