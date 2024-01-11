@@ -4,6 +4,7 @@ import StartUp from "./StartUp";
 import UseCases from "./UseCases"
 import WNavbar from "./WNavbar"
 import HowItsWorkUI from "./HowItsWorkUI"
+import PersonalizedQuotes from "./PersonalizedQuotes"
 
 export default function Navbar({ data = Navbardata }) {
   return (
@@ -18,6 +19,9 @@ export default function Navbar({ data = Navbardata }) {
       </div>
       <div className="bg-white pt-24">
         <HowItsWorkUI/>
+      </div>
+      <div className="bg-white pt-24">
+        <PersonalizedQuotes/>
       </div>
       </div>
     </div>
