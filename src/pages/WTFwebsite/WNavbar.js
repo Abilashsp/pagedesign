@@ -5,7 +5,7 @@ export default function Navbar({ data = Navbardata }) {
   return (
     <div className="w-full h-full  font-WTfont">
       <div className="w-full relative mx-auto ">
-        <header className="bg-white w-full top-0 z-20 fixed py-2">
+        <header className="bg-white w-full top-0 z-30 fixed py-2">
           <nav
             className="mx-auto flex w-full items-center justify-between p-3 lg:px-8"
             aria-label="Global"
@@ -29,7 +29,7 @@ export default function Navbar({ data = Navbardata }) {
                 type="button"
                 className="rounded-3xl bg-[#136ff1] px-8 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500 leading-relaxed "
               >
-               FREE CONSULTATION
+                FREE CONSULTATION
               </button>
             </div>
 
